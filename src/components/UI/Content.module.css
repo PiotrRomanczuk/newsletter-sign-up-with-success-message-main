@@ -1,0 +1,8 @@
+.content {
+    /* margin: 2em; */
+    /* padding: 1em; */
+}
+
+li {
+    list-style-image: url(../../assets/images/icon-list.svg);
+}
