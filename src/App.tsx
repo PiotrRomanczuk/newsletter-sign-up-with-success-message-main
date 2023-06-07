@@ -21,9 +21,11 @@ function App() {
 				<Input
 					placeholder={'example@gmail.com'}
 					value={email}
-					onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-						setEmail(e.target.value)
-					}
+					onChange={(e) => {
+						e.preventDefault();
+						setEmail(e.target.value);
+						console.log(e.target.value);
+					}}
 				/>
 				<Button
 					title={'Login!'}

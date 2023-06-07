@@ -1,5 +1,5 @@
 // Import the necessary dependencies
-import FormValidations from './FormValidations';
+import  FormValidations from './FormValidations';
 
 // Test case for a valid email
 test('Valid email should return true', () => {
